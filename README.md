@@ -27,16 +27,16 @@ CaptiveConnect/
 │   │   └── scripts.js
 │   └── server.js                 # Node.js server
 │
-├── docs/                         # Technical documentation
+├── docs/                         # Technical documentation  but I h no time to update now its nothing
 │   └── architecture.md           # System architecture (pending)
 │
 ├── edge-scripts/                 # System scripts for edge device
 │
-├── config/                       # Configuration files
+├── config/                       # Configuration files  but I h no time to update now its nothing
 │
-├── tests/                        # Automated tests
+├── tests/                        # Automated tests  but I h no time to update now its nothing
 │
-└── tools/                        # Auxiliary utilities
+└── tools/                        # Auxiliary utilities   but I h no time to update now its nothing
 ```
 
 ## Features
