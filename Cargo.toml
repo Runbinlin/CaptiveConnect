@@ -1,0 +1,15 @@
+[package]
+name = "fathin"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <your.email@example.com>"]
+description = "A dual-character action game built with Bevy - Fat vs Thin gameplay mechanics"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/yourusername/fathin"
+
+[dependencies]
+bevy = "0.14"
+
+[[bin]]
+name = "fathin"
+path = "src/main.rs"
