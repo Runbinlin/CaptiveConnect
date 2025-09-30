@@ -90,7 +90,8 @@ fathin/
 - [ ] 移动端适配
 - [ ] Steam 发布
 
-## 🤝 贡献指南
+## 🤝 贡献名单：
+我自己
 
 欢迎提交 Issue 和 Pull Request！
 
@@ -100,7 +101,6 @@ fathin/
 4. 推送到分支 (`git push origin feature/AmazingFeature`)
 5. 开启 Pull Request
 
-## 📄 开源协议
 
 本项目采用 MIT 或 Apache-2.0 双重许可证。详见 [LICENSE](LICENSE) 文件。
 
