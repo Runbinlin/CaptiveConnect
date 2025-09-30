@@ -30,7 +30,7 @@ CaptiveConnect/
 ├── docs/                         # Technical documentation  but I h no time to update now its nothing
 │   └── architecture.md           # System architecture (pending)
 │
-├── edge-scripts/                 # System scripts for edge device
+├── edge-scripts/                 # System scripts for edge device   my job , i need some change , get some ??????
 │
 ├── config/                       # Configuration files  but I h no time to update now its nothing
 │
