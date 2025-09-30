@@ -24,6 +24,19 @@ jobs:
         run: |
           cd android
           ./gradlew build
+      
+      - name: Generate APK
+        run: |
+          cd android
+          ./gradlew assembleDebug
+          mkdir -p apk_artifacts
+          cp app/build/outputs/apk/debug/*.apk apk_artifacts/
+      
+      - name: Upload APK
+        uses: actions/upload-artifact@v3
+        with:
+          name: android-apk
+          path: android/apk_artifacts/*.apk
 
   build-node:
     name: Build Node.js Captive Portal
