@@ -6,32 +6,37 @@ A wireless hotspot management system with captive portal functionality.
 
 ```
 CaptiveConnect/
-├── android/             # Android application
-│   ├── app/
-│   │   ├── src/
-│   │   │   ├── main/
-│   │   │   │   ├── java/
-│   │   │   │   │   └── com/
-│   │   │   │   │       └── captiveconnect/
-│   │   │   │   │           ├── app/
-│   │   │   │   │           │   └── CaptiveConnectApp.kt
-│   │   │   │   │           ├── service/
-│   │   │   │   │           │   └── HotspotService.kt
-│   │   │   │   │           ├── ui/
-│   │   │   │   │           │   └── MainActivity.kt
-│   │   │   │   │           └── util/
-│   │   │   │   ├── res/
-│   │   │   │   └── AndroidManifest.xml
-│   │   │   ├── androidTest/
-│   │   │   └── test/
-│   │   └── libs/
-│   └── gradle/
-├── captive-portal/      # Web portal
-│   ├── src/
+├── README.md                     # Project overview and quick start guide
+├── LICENSE                       # MIT License (pending)
+├── .gitignore                    # Git ignore rules
+├── android/                      # Android application
+│   └── app/                      # Root directory for Android Studio
+│       ├── src/main/
+│       │   ├── java/com/captiveconnect/
+│       │   │   ├── app/          # Application class
+│       │   │   ├── service/      # Hotspot management service
+│       │   │   ├── ui/           # Activities/Fragments
+│       │   │   └── util/         # Utility classes
+│       │   ├── res/              # Android resources
+│       │   └── AndroidManifest.xml
+│       └── build.gradle
+│
+├── captive-portal/               # Captive Portal web interface
+│   ├── public/                   # Static assets root
 │   │   ├── index.html
 │   │   └── scripts.js
-├── docs/               # Documentation
-└── tests/              # Test files
+│   └── server.js                 # Node.js server
+│
+├── docs/                         # Technical documentation
+│   └── architecture.md           # System architecture (pending)
+│
+├── edge-scripts/                 # System scripts for edge device
+│
+├── config/                       # Configuration files
+│
+├── tests/                        # Automated tests
+│
+└── tools/                        # Auxiliary utilities
 ```
 
 ## Features
